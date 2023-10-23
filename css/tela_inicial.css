@@ -33,7 +33,7 @@
 
 .home::before {
   content: "";
-  background-image: url("/img/mesa-de-pirata.jpg");
+  background-image: url("img/mesa-de-pirata.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
