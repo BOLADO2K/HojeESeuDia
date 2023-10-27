@@ -35,7 +35,7 @@ p{
 .part-1::before {
   height: 100vh;
   content: "";
-  background-color: #000000e0; /* Aplica opacidade ao fundo */
+  background-color: #000000e0;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -171,14 +171,16 @@ button {
   background-size: cover;
 }
 
-.filho {
-  width: 30%;
-}
-.filho-2 {
+.filho-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  border-radius: 10px;
   width: 30%;
 }
 
-.filho::before {
+.filho-1::before {
   content: "";
   height: 100vh;
   background-color: #000000d0; /* Aplica opacidade ao fundo */
@@ -187,13 +189,14 @@ button {
   height: 100%;
 }
 
-.filho p {
+.filho-1 p {
   margin: 5%;
   color: white;
   font-size: 22px;
   text-align: justify;
   z-index: 1;
 }
+
 
 /* ------------------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------------------ */
@@ -612,3 +615,6 @@ p{
     translate: 0 0;
   }
 }
+
+
+

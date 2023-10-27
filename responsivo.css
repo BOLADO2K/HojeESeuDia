@@ -35,7 +35,7 @@
       .part-1 h1 {
         font-size: 60px;
         color: white;
-        z-index: 1; /* Garante que o texto esteja acima do fundo opaco */
+        z-index: 1; 
       }
       .part-1 h1.line {
         font-size: 20px;
@@ -64,6 +64,9 @@
         width: 100%;
       }
 
+      .filho-1{
+        width: 100%;
+      }
       .filho-2{
         width: 100%;
       }
