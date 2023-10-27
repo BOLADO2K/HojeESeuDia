@@ -33,11 +33,11 @@
 
 .home::before {
   content: "";
-  background-image: url("img/mesa-de-pirata.jpg");
+  background-image: url("https://i.pinimg.com/originals/7b/de/7f/7bde7f9095e04e3f7507ed19df9554b9.gif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  filter: blur(2px);
+  filter: blur(3px);
   position: absolute;
   top: 0;
   right: 0;

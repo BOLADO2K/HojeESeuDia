@@ -10,6 +10,7 @@
 
 body {
   background-color: black;
+  font-family: 'Avocade Bold', sans-serif;
 }
 
 .x {
@@ -44,6 +45,10 @@ p{
   font-size: 60px;
   color: white;
   z-index: 1; /* Garante que o texto esteja acima do fundo opaco */
+}
+.part-1 h1.line {
+  font-size: 55px;
+ 
 }
 .mini {
   background-size: 100%;
@@ -104,7 +109,7 @@ span {
     width: 50%;
   }
   to {
-    width: 88%;
+    width: 57%;
   }
 }
 
